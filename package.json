@@ -1,0 +1,25 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "Employee Management System allows a business owner to organize and plan their business by viewing and managing the departments, roles, and employees in my company.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjannross/employee-management-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjannross/employee-management-system/issues"
+  },
+  "homepage": "https://github.com/jjannross/employee-management-system#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1"
+  }
+}
