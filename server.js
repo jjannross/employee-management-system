@@ -1,16 +1,36 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-const Manager = require("./lib/manager.js");
-const Engineer = require("./lib/engineer.js");
-const Intern = require("./lib/intern.js");
+// const Manager = require("./lib/manager.js");
+// const Engineer = require("./lib/engineer.js");
+// const Intern = require("./lib/intern.js");
 
-const managerHtml = require("./src/managerHtml.js");
-const engineerHtml = require("./src/engineerHtml.js");
-const internHtml = require("./src/internHtml.js");
-const indexHtml = require("./src/indexHtml.js");
+// const managerHtml = require("./src/managerHtml.js");
+// const engineerHtml = require("./src/engineerHtml.js");
+// const internHtml = require("./src/internHtml.js");
+// const indexHtml = require("./src/indexHtml.js");
 let teamName = "";
 const teamMembersArr = [];
+
+const mysql = require('mysql');
+
+const connection = mysql.createConnection({
+  host: 'localhost',
+
+  // Your port; if not 3306
+  port: 3306,
+
+  // Your username
+  user: 'root',
+
+  // Be sure to update with your own MySQL password!
+  password: '12345678',
+  database: 'employees',
+});
+connection.connect(function(err){
+    if(err) throw err
+    console.log("connection id ", connection.threadId)
+})
 
 let createTeam = {
   type: "list",
