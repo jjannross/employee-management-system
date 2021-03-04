@@ -2,9 +2,9 @@
 
 Employee Management System allows a business owner to organize and plan their business by viewing and managing the departments, roles, and employees in my company.
 
-![Team Profiles](./images/1.png)
-![Passing Tests](./images/2.png)
-![Command Line](./images/3.png)
+![Beginning Prompt](./images/1.png)
+![Working Questions](./images/2.png)
+![Exit](./images/3.png)
 
 To visit the team profile generator [click here](https://jjannross.github.io/employee-management-system/)
 To watch a demonstration [click here](https://drive.google.com/file/d/1VTBL0MH6RVqfqWQ_MDfWM_l6RlJM4JIs/view)
