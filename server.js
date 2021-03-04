@@ -343,7 +343,7 @@ const viewEmployeeByManager = () => {
   LEFT JOIN employee manager
   ON manager.id=employee.manager_id
   INNER JOIN role 
-  ON employee.role_id=roles.id
+  ON employee.role_id=role.id
   ORDER BY manager;`,
     (err, res) => {
       if (err) throw err;

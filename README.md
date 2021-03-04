@@ -2,12 +2,12 @@
 
 Employee Management System allows a business owner to organize and plan their business by viewing and managing the departments, roles, and employees in my company.
 
-![Team Profiles](./assets/images/1.png)
-![Passing Tests](./assets/images/3.png)
-![Command Line](./assets/images/2.png)
+![Team Profiles](./images/1.png)
+![Passing Tests](./images/2.png)
+![Command Line](./images/3.png)
 
-To visit the team profile generator [click here](https://jjannross.github.io/wmployee-management-system/)
-To watch a demonstration [click here](https://drive.google.com/file/d/1IGa8qIBifLIsSe2Ar2Bw5om-M6ZhlscN/view?usp=sharing)
+To visit the team profile generator [click here](https://jjannross.github.io/employee-management-system/)
+To watch a demonstration [click here](https://drive.google.com/file/d/1VTBL0MH6RVqfqWQ_MDfWM_l6RlJM4JIs/view)
 
 ## Prerequisites
 
@@ -16,9 +16,9 @@ Before you begin, ensure you have met the following requirements:
 - You have installed the latest version of `<coding_language/dependency/requirement_1>`
 - You have a `<Windows/Linux/Mac>` machine.
 
-## Installing <jjannross.github.io/wmployee-management-system/>
+## Installing <jjannross.github.io/employee-management-system/>
 
-To install <jjannross.github.io/wmployee-management-system/>, follow these steps:
+To install <jjannross.github.io/employee-management-system/>, follow these steps:
 
 Linux and macOS:
 
@@ -32,22 +32,22 @@ Windows:
 <install_command>
 ```
 
-## Using <jjannross.github.io/wmployee-management-system/>
+## Using <jjannross.github.io/employee-management-system/>
 
-To use <jjannross.github.io/wmployee-management-system/>, follow these steps:
+To use <jjannross.github.io/employee-management-system/>, follow these steps:
 
 ```
 <usage_example>
 ```
 
-## Contributing to <jjannross.github.io/wmployee-management-system/>
+## Contributing to <jjannross.github.io/employee-management-system/>
 
-To contribute to <jjannross.github.io/wmployee-management-system/>, follow these steps:
+To contribute to <jjannross.github.io/employee-management-system/>, follow these steps:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
 3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <jjannross.github.io/wmployee-management-system/>/<location>`
+4. Push to the original branch: `git push origin <jjannross.github.io/employee-management-system/>/<location>`
 5. Create the pull request.
 
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
